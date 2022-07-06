@@ -1,0 +1,60 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: MonumentExtended-Regular;
+padding: 10px;
+background:linear-gradient(to right top, #384173, #404980, #5a64a3, #7781bf, #97a1de);
+}
+.header {
+padding: 10px;
+color:#051937;
+text-align: center;
+}
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	border-radius: 10px;
+}
+.topnav a:hover {
+	background-color: #384173;
+	color: white;
+}	
+.topnav a {
+float: left;
+display: block;
+color: #384173;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.middlecolumn { 
+float: center;
+width: 100%;
+padding:10px;
+}
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 10px;
+}
+.kotak {
+width: 100%;
+padding: 50px;
+border: 5px solid gray;
+border-style: solid;
+border-color: white;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 12px;
+}
+.footer {
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+border-radius: 20px;
+color: white;
+}
